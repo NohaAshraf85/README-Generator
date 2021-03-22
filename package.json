@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/NohaAshraf85/README-Generator/issues"
   },
-  "homepage": "https://github.com/NohaAshraf85/README-Generator#readme"
+  "homepage": "https://github.com/NohaAshraf85/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
