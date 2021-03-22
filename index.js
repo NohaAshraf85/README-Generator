@@ -61,16 +61,26 @@ function promptUser() {
 
   function generateREADME(answers) {
     return `
-    # Title ${answers.name}
-    # Description ${answers.description}
-    # Table of Contents ${answers.toc}
-    # Installation ${answers.installation}
-    # Usage ${answers.usage}
-    # License ${answers.license}
-    # Contributing ${answers.contributing}
-    # Tests ${answers.tests}
-    # Questions ${answers.questions}
-    # Badges ${answers.badges}`;
+    # Title 
+    ${answers.name}
+    # Description 
+    ${answers.description}
+    # Table of Contents 
+    ${answers.toc}
+    # Installation 
+    ${answers.installation}
+    # Usage 
+    ${answers.usage}
+    # License 
+    ${answers.license}
+    # Contributing 
+    ${answers.contributing}
+    # Tests 
+    ${answers.tests}
+    # Questions 
+    ${answers.questions}
+    # Badges 
+    ${answers.badges}`;
   }
 
   promptUser()
