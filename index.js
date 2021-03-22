@@ -8,13 +8,13 @@ function promptUser() {
     return inquirer.prompt([
       {
         type: "input",
-        name: "name",
-        message: "What is your name?"
+        name: "title",
+        message: "What is the README Title?"
       },
       {
         type: "input",
-        name: "location",
-        message: "Where are you from?"
+        name: "description",
+        message: "Please add the README description"
       },
       {
         type: "input",
@@ -23,18 +23,38 @@ function promptUser() {
       },
       {
         type: "input",
-        name: "food",
-        message: "What is your favorite food?"
+        name: "table of contents",
+        message: "Add the Table of Contents"
       },
       {
         type: "input",
-        name: "github",
-        message: "Enter your GitHub Username"
+        name: "installation",
+        message: "What are the installation requirements"
       },
       {
         type: "input",
-        name: "linkedin",
-        message: "Enter your LinkedIn URL."
+        name: "usage",
+        message: "What is this purpose and usage of this application?"
+      },
+      {
+        type: "input",
+        name: "license",
+        message: "Add the license"
+      },
+      {
+        type: "input",
+        name: "contributing",
+        message: "How to contribute?"
+      },
+      {
+        type: "input",
+        name: "tests",
+        message: "What type of testing?"
+      },
+      {
+        type: "input",
+        name: "questions",
+        message: "Questions here"
       }
     ]);
   }
