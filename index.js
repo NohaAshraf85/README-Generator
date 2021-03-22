@@ -73,6 +73,19 @@ function promptUser() {
     # Badges ${answers.badges}`;
   }
 
+  promptUser()
+  .then(function(answers) {
+    const readme = generateREADME(answers);
+
+    return writeFileAsync("README1.md", readme);
+  })
+  .then(function() {
+    console.log("Successfully wrote to README1.md");
+  })
+  .catch(function(err) {
+    console.log(err);
+  });
+
 
 
 
