@@ -18,12 +18,7 @@ function promptUser() {
       },
       {
         type: "input",
-        name: "hobby",
-        message: "What is your favorite hobby?"
-      },
-      {
-        type: "input",
-        name: "table of contents",
+        name: "toc",
         message: "Add the Table of Contents"
       },
       {
@@ -55,7 +50,30 @@ function promptUser() {
         type: "input",
         name: "questions",
         message: "Questions here"
+      },
+      {
+        type: "input",
+        name: "badges",
+        message: "Please include the badges"
       }
     ]);
   }
+
+  function generateREADME(answers) {
+    return `
+    # Title ${answers.name}
+    # Description ${answers.description}
+    # Table of Contents ${answers.toc}
+    # Installation ${answers.installation}
+    # Usage ${answers.usage}
+    # License ${answers.license}
+    # Contributing ${answers.contributing}
+    # Tests ${answers.tests}
+    # Questions ${answers.questions}
+    # Badges ${answers.badges}`;
+  }
+
+
+
+
   
