@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Good README.md generator using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NohaAshraf85/README-Generator.git"
+  },
+  "keywords": [
+    "README-Generator"
+  ],
+  "author": "Noha Ashraf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NohaAshraf85/README-Generator/issues"
+  },
+  "homepage": "https://github.com/NohaAshraf85/README-Generator#readme"
+}
