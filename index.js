@@ -32,9 +32,18 @@ function promptUser() {
         message: "What is this purpose and usage of this application?"
       },
       {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "Add the license"
+        message: "What Type of license?",
+        choices: [
+          "MIT License",
+          "GNU General Public License v3.0",
+          "Apache License 2.0",
+          "ISC License",
+          "Mozilla Public License 2.0",
+          "Boost Software License 1.0",
+          "The Unlicense"
+        ]
       },
       {
         type: "input",
