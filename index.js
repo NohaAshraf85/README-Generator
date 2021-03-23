@@ -62,7 +62,7 @@ function promptUser() {
   function generateREADME(answers) {
     return `
     # Title 
-    ${answers.name}
+    ${answers.title}
     # Description 
     ${answers.description}
     # Table of Contents 
