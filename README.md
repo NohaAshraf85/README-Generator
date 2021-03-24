@@ -66,7 +66,7 @@ Next step is to check the folder tree on the left side of Visual Studio, you sho
 ![APM](https://img.shields.io/apm/l/README)
 
 ## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![javaScript](https://img.shields.io/badge/JavaScript-100%25-blue)
 
 ## Contributing 
 To contribute to this project, please make sure you follow the guidelines in [The Contributor Covenant](https://www.contributor-covenant.org/) as general guidelines.
