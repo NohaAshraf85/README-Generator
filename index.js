@@ -59,37 +59,29 @@ function promptUser() {
         type: "input",
         name: "questions",
         message: "Questions here"
-      },
-      {
-        type: "input",
-        name: "badges",
-        message: "Please include the badges"
       }
     ]);
   }
 
   function generateREADME(answers) {
-    return `
-    # Title 
+    return `# Title 
     ${answers.title}
-    # Description 
+## Description 
     ${answers.description}
-    # Table of Contents 
+## Table of Contents 
     ${answers.toc}
-    # Installation 
+## Installation 
     ${answers.installation}
-    # Usage 
+## Usage 
     ${answers.usage}
-    # License 
+## License 
     ${answers.license}
-    # Contributing 
+## Contributing 
     ${answers.contributing}
-    # Tests 
+## Tests 
     ${answers.tests}
-    # Questions 
-    ${answers.questions}
-    # Badges 
-    ${answers.badges}`;
+## Questions 
+    ${answers.questions}`;
   }
 
   promptUser()
