@@ -105,6 +105,7 @@ function promptUser() {
 ${licenseurl}
 
 ## Description 
+
     ${answers.description}
 ## Table of Contents 
 [Description](#description)
@@ -122,16 +123,31 @@ ${licenseurl}
 [Questions](#questions)
 
 ## Installation 
+
     ${answers.installation}
+
 ## Usage 
+
     ${answers.usage}
+
 ## License 
+
     ${answers.license}
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
 ## Contributing 
+
     ${answers.contributing}
+
 ## Tests 
+
     ${answers.tests}
+
 ## Questions
+
 For any questions, please contact me through [GitHub](github:${answers.githubuser}) 
 or [Email](email:${answers.email})`
     ;
