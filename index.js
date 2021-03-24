@@ -16,11 +16,7 @@ function promptUser() {
         name: "description",
         message: "Please add the README description"
       },
-      // {
-      //   type: "input",
-      //   name: "toc",
-      //   message: "Add the Table of Contents"
-      // },
+
       {
         type: "input",
         name: "installation",
@@ -53,11 +49,6 @@ function promptUser() {
         name: "tests",
         message: "What type of testing?"
       },
-      // {
-      //   type: "input",
-      //   name: "questions",
-      //   message: "Questions here"
-      // },
       {
         type: "input",
         name: "githubuser",
@@ -116,6 +107,8 @@ ${licenseurl}
 
 [License](#license)
 
+[Badges](#Badges)
+
 [Contributing](#contributing)
 
 [Tests](#tests)
@@ -139,8 +132,10 @@ ${licenseurl}
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 ## Contributing 
+To contribute to this project, please make sure you follow the guidelines in [The Contributor Covenant](https://www.contributor-covenant.org/) as general guidelines.
+Kindly maintain thr highest ethics and respect. For further questions or requests kindly contact me through my e-mail: noha_ashraf85@hotmail.com or [GitHub](https://github.com/NohaAshraf85)
 
-    ${answers.contributing}
+${answers.contributing}
 
 ## Tests 
 
@@ -157,7 +152,7 @@ or [Email](email:${answers.email})`
   .then(function(answers) {
     const readme = generateREADME(answers);
 
-    return writeFileAsync("README1.md", readme);
+    return writeFileAsync("generatedREADME.md", readme);
   })
   .then(function() {
     console.log("Successfully wrote to README1.md");
