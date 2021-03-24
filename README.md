@@ -72,8 +72,6 @@ Next step is to check the folder tree on the left side of Visual Studio, you sho
 To contribute to this project, please make sure you follow the guidelines in [The Contributor Covenant](https://www.contributor-covenant.org/) as general guidelines.
 Kindly maintain thr highest ethics and respect. For further questions or requests kindly contact me through my e-mail: noha_ashraf85@hotmail.com or [GitHub](https://github.com/NohaAshraf85)
 
-To contribute to this project kindly follow the guidelines in the above link or contact me directly through my e-mail: noha_ashraf85@hotmail.com 
-
 ## Tests 
 To best test the application you need to invoke it using the command Node index.js and upon creating the generated README.md, push it to Github pages and view it on the web or Open Preview on Visual Studio Code
 

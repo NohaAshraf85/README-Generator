@@ -98,6 +98,7 @@ ${licenseurl}
 ## Description 
 
     ${answers.description}
+    
 ## Table of Contents 
 [Description](#description)
 
@@ -132,8 +133,6 @@ ${licenseurl}
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 ## Contributing 
-To contribute to this project, please make sure you follow the guidelines in [The Contributor Covenant](https://www.contributor-covenant.org/) as general guidelines.
-Kindly maintain thr highest ethics and respect. For further questions or requests kindly contact me through my e-mail: noha_ashraf85@hotmail.com or [GitHub](https://github.com/NohaAshraf85)
 
 ${answers.contributing}
 
