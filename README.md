@@ -1,6 +1,6 @@
 # README-Generator
 ## Description
-This README Generator project is created to automate the process of creating a good, high quality README.md documentation for your projects. The code is based on a template that keeps in mind the README.md guidelines to make sure that the documentaiton is informative and helpful. A video walkthrough of the application is available through: [Demo](./assets/images/readmewalkthrough.png)
+This README Generator project is created to automate the process of creating a good, high quality README.md documentation for your projects. The code is based on a template that keeps in mind the README.md guidelines to make sure that the documentaiton is informative and helpful. A video walkthrough of the application is available through: ![Demo](./assets/images/readmewalkthrough.png)
 
 ## Table of Contents
 
