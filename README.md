@@ -43,6 +43,24 @@ In order to install the application:
 The applicaiton is best used to automate the process of creating a README.md file to document your project, through the questions that appeare in the Integrated Terminal of Visual Studio Code the responses will be populated automatically to your file
 
 ## How it Works
+Upon opening Visual Studio Code, right click on the file index.js and chose Open in Integrated Terminal.
+
+![Open](./assets/images/openintegratedter.png)
+
+The Integrated Terminal will oepn in the bottom of Visual Studio.
+
+In order to invoke the application type Node index.js command in the Integrated Terminal.
+
+![invoke](./assets/images/invoke.png)
+
+Upon pressing enter, a list of quetsions will appeare one by one in the Terminal, answer those questions, upon completion a success message will appeare in the Terminal.
+
+![success](./assets/images/questionsandanswers.png)
+
+Next step is to check the folder tree on the left side of Visual Studio, you should find a file titled generatedREADME.md. Upon clicking on this file it will open in markdown format, if you wish to test if it is formatted successfully, right click on the file and chose Open Preview.
+
+![Result](./assets/images/result.png)
+
 
 ## License 
 ![APM](https://img.shields.io/apm/l/README)
