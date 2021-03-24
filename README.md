@@ -76,5 +76,5 @@ Kindly maintain thr highest ethics and respect. For further questions or request
 To best test the application you need to invoke it using the command Node index.js and upon creating the generated README.md, push it to Github pages and view it on the web or Open Preview on Visual Studio Code
 
 ## Questions
-For any questions, please contact me through [GitHub](github:NohaAshraf85) 
-or [Email](email:Noha_ashraf85@hotmail.com)
+For any questions, please contact me through [GitHub](https://github.com/NohaAshraf85) 
+or E-mail: noha_ashraf85@hotmail.com 
