@@ -36,8 +36,9 @@ This README Generator project is created to automate the process of creating a g
 In order to install the application:
 1. Clone the repo on your machine
 2. Open the folder and select the index.js file
-3. Open the index.js using the Integrated Terminal in Visual Studio Code
-4. In the terminal invoke the applicaiton using the command Node index.js
+3. In the Integrated Terminal run the command npm install, in order to install the inquirer module on your machine
+4. Open the index.js using the Integrated Terminal in Visual Studio Code
+5. In the terminal invoke the applicaiton using the command Node index.js
 
 ## Usage
 The applicaiton is best used to automate the process of creating a README.md file to document your project, through the questions that appeare in the Integrated Terminal of Visual Studio Code the responses will be populated automatically to your file
