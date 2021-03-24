@@ -1,8 +1,10 @@
 # README-Generator
 ## Description
-This README Generator project is created to automate the process of creating a good, high quality README.md documentation for your projects. The code is based on a template that keeps in mind the README.md guidelines to make sure that the documentaiton is informative and helpful. A video walkthrough of the application is available through: 
+This README Generator project is created to automate the process of creating a good, high quality README.md documentation for your projects. The code is based on a template that keeps in mind the README.md guidelines to make sure that the documentaiton is informative and helpful. The below is a demo showing the application. 
 
 ![Demo](./assets/images/readmewalkthrough1.gif)
+
+[Video](https://drive.google.com/file/d/1CliRmd6f3amMejbr_ZGvX7pp_G2eVGKJ/view)
 
 ## Table of Contents
 
@@ -13,6 +15,8 @@ This README Generator project is created to automate the process of creating a g
 [Installation](#installation)
 
 [Usage](#usage)
+
+[How-it-Works](#How-it-Works)
 
 [License](#license)
 
@@ -37,6 +41,8 @@ In order to install the application:
 
 ## Usage
 The applicaiton is best used to automate the process of creating a README.md file to document your project, through the questions that appeare in the Integrated Terminal of Visual Studio Code the responses will be populated automatically to your file
+
+## How it Works
 
 ## License 
 ![APM](https://img.shields.io/apm/l/README)
