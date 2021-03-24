@@ -1,12 +1,12 @@
 # README-Generator
 ## Description
-This README Generator project is created to automate the process of creating a good, high quality README.md documentation for your projects. The code is based on a template that keeps in mind the README.md guidelines to make sure that the documentaiton is informative and helpful.
+This README Generator project is created to automate the process of creating a good, high quality README.md documentation for your projects. The code is based on a template that keeps in mind the README.md guidelines to make sure that the documentaiton is informative and helpful. A video walkthrough of the application is available through: [![README-Walkthrough]({./assets/images/readme-walkthrough.png})]({https://drive.google.com/file/d/1EWYrL7Ujcn9Exnde1uuu_IXTT7H2ORCs/view} "README-Demo")
 
 ## Table of Contents
 
 [Description](#description)
 
-[Technologies](#Technologies Used)
+[Technologies](#Technologies)
 
 [Installation](#installation)
 
@@ -22,7 +22,7 @@ This README Generator project is created to automate the process of creating a g
 
 [Questions](#questions)
 
-## Technologies Used
+## Technologies
 1. JavaScript
 2. Node.js
 
